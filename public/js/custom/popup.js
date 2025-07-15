@@ -2,7 +2,7 @@
 document.addEventListener("DOMContentLoaded", () => {
 
         
-    const botoes = document.querySelectorAll(".garantirparticipacao");
+    const botoes = document.querySelectorAll(".garantirparticipacaoopenform");
     const fechar = document.getElementById("fecharPopup");
     const overlay = document.getElementById("popupOverlay");
 
