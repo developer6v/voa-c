@@ -192,7 +192,7 @@ document.addEventListener("DOMContentLoaded", function () {
         urlParams.get("utm_medium"),
         urlParams.get("utm_campaign"),
         urlParams.get("utm_content"),
-        urlParams.get("utm_term")
+        "voa-c"
     ].join('|');
 
     
@@ -206,7 +206,7 @@ document.addEventListener("DOMContentLoaded", function () {
     `&utm_medium=${urlParams.get("utm_medium")}` +
     `&utm_campaign=${urlParams.get("utm_campaign")}` +
     `&utm_content=${urlParams.get("utm_content")}` +
-    `&utm_term=${urlParams.get("utm_term")}` +
+    `&utm_term=voa-c` +
     `&email=${email_digitado.value}` +
     `&phoneac=${numero_completo}`;
 
